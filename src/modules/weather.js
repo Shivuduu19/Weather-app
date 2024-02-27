@@ -1,7 +1,7 @@
 import { renderError, setSearchResults } from './dom';
 const weather = (function () {
     async function getData(city) {
-        const endpoint = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=8c5e8b09e1cb051feaffc91ff767b8f5`;
+        const endpoint = `https://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=8c5e8b09e1cb051feaffc91ff767b8f5`;
         // console.log(city);
         // console.log(endpoint);
 
