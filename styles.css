@@ -4,7 +4,7 @@
     margin: 0;
 }
 body{
-    background-image: url(../src/images/weather.webp);
+    background-image: url(./images/weather.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
