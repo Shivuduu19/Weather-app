@@ -28,6 +28,7 @@ function setSearchResults(name, cityInfo) {
         location.setAttribute('data-lon', cityInfo.coord.lon);
         temp.innerText = cityInfo.main.temp + ' C';
         desc.innerText = cityInfo.weather[0].description;
+        // console.log(location);
     }
 }
 function renderError(error) {

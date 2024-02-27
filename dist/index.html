@@ -9,23 +9,26 @@
     <script src="main.js" defer></script>
   </head>
   <body>
+    <div class="head"><h1>Weather App</h1></div>
     <div class="main">
       <section class="card">
+        <div class="container">
         <div class="card-container-left">
         <h1 class="card-location"></h1>  
         <p class="card-day"></p>
         <p class="card-date"></p>
         <p class="card-time"></p>
-        <div class="card-container-box">
+        </div>
+        <!-- <div class="card-container-box">
           <button class="card-hourly-open">Hours</button>
           <button class="card-daily-open">Daily</button>
-        </div>
-        </div>
+        </div> -->
         <div class="card-container-right">
           <img src="" alt="" class="card-icon">
           <p class="card-temp"></p>
           <p class="card-desc"></p>
         </div>
+      </div>
         <div class="card-container-bottom">
           <form class="search-form" id="search-form" >
             <input type="text"  id="search-input" class="card-search-input" required>

@@ -1,13 +1,55 @@
-/* *,*::after,*::before{
+*,*::after,*::before{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-} */
+}
+body{
+    background-image: url(../src/images/weather.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 .main{
     display: flex;
+    flex-direction: column;
     height: 100vh;
     align-items: center;
     justify-content: center;
+    /* background-color: #000; */
+}
+.container{
+    /* background-color: #000; */
+    display: flex;
+    gap: 2rem;
+    height: 30vh;
+}
+.head{
+    width: 100%;
+    height: 20vh;
+    background-color: #45656765;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-container-left{
+    padding: 1rem;
+}
+.card-container-right{
+    padding: 1rem;
+}
+.card-container-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: xx-large;
+}
+.card-search-button{
+    background-color: transparent;
+    font-size: larger;
 }
