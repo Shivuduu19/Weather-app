@@ -10,3 +10,6 @@ Made this using:
 -   css3 and html5
 
 # 📚 What I learnt:
+
+-   how to handle a RESTAPI request
+-
